@@ -10,7 +10,7 @@ All target language sentences were constructed by an MT first-pass translation f
 ## Inflection lists
 In section 2.3.2 of the paper, we describe a lattice rescoring scheme for biased translations. This involves building a gender-inflected search space for every hypothesis, which itself requires a mapping of target language words to their inflected forms. 
 
-We provide our [inflect-lists](gender-inflected lists), with the caution that they were constructed on large vocabulary lists using simple heuristics with an eye towards over-generation, and should not be considered grammatically reliable.
+We provide our gender-inflected lists with the caution that they were constructed on large vocabulary lists using simple heuristics with an eye towards over-generation, and should not be considered grammatically reliable.
 
 ## Citing
 

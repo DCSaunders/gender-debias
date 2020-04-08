@@ -1,2 +1,26 @@
 # gender-debias
-Adaptation datasets and scripts for the paper "Reducing gender bias in Neural Machine Translation as a domain adaptation problem" (2020)
+Adaptation datasets and inflected word lists for the paper "Reducing Gender Bias in Neural Machine Translation as a Domain Adaptation Problem" (ACL 2020)
+
+
+## Adaptation sets
+We provide the [data/handcrafted](handcrafted) and [data/handcrafted-nooverlap](handcrafted-nooverlap) adaptation sets described in section 2.2.1 of the paper, in English-German, English-Spanish and English-Hebrew. These are small (388 parallel sentence pairs) gender-balanced datasets. 
+
+All target language sentences were constructed by an MT first-pass translation from English followed by manual checking by a non-native speaker: we apologize and welcome corrections for any mistranslations!
+
+## Inflection lists
+In section 2.3.2 of the paper, we describe a lattice rescoring scheme for biased translations. This involves building a gender-inflected search space for every hypothesis, which itself requires a mapping of target language words to their inflected forms. 
+
+We provide our [inflect-lists](gender-inflected lists), with the caution that they were constructed on large vocabulary lists using simple heuristics with an eye towards over-generation, and should not be considered grammatically reliable.
+
+## Citing
+
+```
+@InProceedings{saunders2020genderbias,
+  author    = {Danielle Saunders and Bill Byrne},
+  title     = {Reducing Gender Bias in Neural Machine Translation as a Domain Adaptation Problem},
+  booktitle = {ACL},
+  month     = {July},
+  year      = {2020},
+  publisher = {Association for Computational Linguistics}
+}
+```

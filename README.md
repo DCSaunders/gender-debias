@@ -1,6 +1,9 @@
 # gender-debias
 Adaptation datasets and inflected word lists for the paper "Reducing Gender Bias in Neural Machine Translation as a Domain Adaptation Problem" (ACL 2020)
 
+## Models and scripts
+The Tensorflow checkpoints for our baseline models can be found here: https://drive.google.com/drive/u/1/folders/1XaWbXQQ8icZZE__fPBOj4dC24oiA3Qtv
+Also on the google drive are various utility scripts for lattice rescoring.
 
 ## Adaptation data
 We provide the handcrafted and handcrafted-nooverlap sets adaptation sets described in section 2.2.1 of the paper, in English-German, English-Spanish and English-Hebrew. These are small (388 parallel sentence pairs) gender-balanced datasets. 

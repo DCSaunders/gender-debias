@@ -1,6 +1,9 @@
 # gender-debias
 Adaptation datasets and inflected word lists for the paper "Reducing Gender Bias in Neural Machine Translation as a Domain Adaptation Problem" (ACL 2020)
 
+## Walkthrough
+We provide a walkthrough for the primary experiments in python notebook format. It is possible to run many experiments such as evaluation and handcrafted dataset adaptation on colab using a CPU. Decoding with SGNMT takes a long time for a single-core machine and so we recommend reproducing those experiments locally and in parallel.
+
 ## Models and scripts
 The Tensorflow checkpoints for our baseline models can be found here: https://drive.google.com/drive/u/1/folders/1XaWbXQQ8icZZE__fPBOj4dC24oiA3Qtv
 Also on the google drive are various utility scripts for lattice rescoring.
